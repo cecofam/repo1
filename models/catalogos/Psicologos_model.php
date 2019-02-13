@@ -54,6 +54,7 @@ Class Psicologos_model extends CI_Model
         oci_bind_by_name($querys,":PAINICIALES",$datos['iniciales']);
         oci_bind_by_name($querys,":PACEDULA",$datos['cedula']);
         oci_bind_by_name($querys,":PACTIVO",$datos['activo']);
+        oci_bind_by_name($querys,":PACTIVO",$datos['dasectivado']);
      // oci_bind_by_name($querys,":PAFECHA_CREACION",$datos['fecha_creacion']);
         oci_bind_by_name($querys,":PAFECHA_CREACION",$array['fecha_creacion'],50);
         oci_bind_by_name($querys,":PAFECHA_ACTUALIZACION",$array['fechaActualizacion'],50);

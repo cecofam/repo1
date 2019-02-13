@@ -118,6 +118,7 @@
                                             <select name="activo">
                                                <option value="">--SELECCIONE--</option>
                                                <option value="S">ACTIVO</option>
+                                               <option value="S">desactivado</option>
                                                <option value="N">INACTIVO</option>
                                             </select>
                                             </td>

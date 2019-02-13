@@ -55,6 +55,7 @@ class Psicologos_c extends CI_Controller {
                                                 <td>Iniciales</td>
                                                 <td>Cedula</td>
                                                 <td>Activo</td>
+                                                <td>desactivado</td>
                                                 
                                                 <td></td>
                                             </tr>";
